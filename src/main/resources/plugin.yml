@@ -1,0 +1,13 @@
+name: MCAircraft
+version: 1.0.0
+main: com.ubivismedia.aircraft.AircraftPlugin
+description: A Minecraft plugin for designing aircrafts
+api-version: "1.20"
+authors:
+  - Ubivis
+
+commands:
+  aircraft:
+    description: Main command for aircraft design
+    usage: /aircraft <subcommand>
+    permission: mcaircraft.use
