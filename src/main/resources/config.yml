@@ -1,0 +1,9 @@
+database:
+  type: sqlite
+  file: plugins/AircraftPlugin/aircrafts.db
+
+messages:
+  prefix: "[MCAircraft]"
+  aircraft_created: "Your aircraft has been successfully created!"
+  invalid_command: "Invalid command usage. Type /aircraft help for more info."
+  seat_interaction: "You have taken a seat in the aircraft."
